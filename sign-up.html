@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Sign Up</title>
+</head>
+
+<body>
+
+	<!--********** HEADER (LOGO AND NAV) **********-->
+	<header class="header">
+		<nav class="navbar navbar-expand-sm">
+    <a class="navbar-brand" href="index.html"><img src="assets/images/barneys-boxercise-logo.png" id="logo" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">☰</button> 
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item active"> <a class="nav-link" href="sign-up.html">Sign Up</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+	</header>
+
+	<!--********** DIVIDING HEADER FROM BODY *********-->
+	<hr class="hr1">
+	<hr class="hr2">
+
+	<!--********** FORM *********-->
+	<h1 class="mt-4 text-center"><u>Sign Up</u></h1>
+	<h5 class="mt-4 text-center">Please complete to below form to register your interest</h5>
+
+	<form>
+		<div class="form-group needs-validation">
+			<label for="name">Name:</label>
+			<input type="text" class="form-control" id="name" required>
+    </div>
+			<div class="form-group">
+				<label for="address1">Address:</label>
+				<input type="text" class="form-control" id="address1" placeholder="Street" required>
+				<br><input type="text" class="form-control" id="address2" placeholder="Town" required>
+				<br><input type="text" class="form-control" id="address3" placeholder="Post Code" required>
+  </div>
+
+				<div class="form-group">
+					<label for="telephone">Telephone No:</label>
+					<input type="tel" class="form-control" id="telephone" placeholder="0000000000" required>
+  </div>
+
+					<div class="form-group">
+						<label for="email">E-mail Address:</label>
+						<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+  </div>
+
+						<div class="form-group">
+							<label for="dob">Date of Birth:</label>
+							<input type="date" class="form-control" id="dob" required>
+  </div>
+
+
+							<label for="social">How did you hear about us?:</label>
+							<div class="form-check-inline">
+								<input class="form-check-input" type="checkbox" value="" id="social">
+								<label class="form-check-label" for="social">
+    Social Media
+  </label>
+							</div>
+							<div class="form-check-inline">
+								<input class="form-check-input" type="checkbox" value="" id="advertising">
+								<label class="form-check-label" for="advertising">
+    Advertising
+  </label>
+							</div>
+							<div class="form-check-inline">
+								<input class="form-check-input" type="checkbox" value="" id="mouth">
+								<label class="form-check-label" for="mouth">
+    Word of Mouth
+  </label>
+							</div>
+							<div class="form-check-inline">
+								<input class="form-check-input" type="checkbox" value="" id="other">
+								<label class="form-check-label" for="other">
+    Other
+  </label>
+							</div>
+
+							<div class="form-group-space">
+								<label for="class-time">Preferred Class Time:</label>
+								<select class="form-control" id="class-time">
+                                    <option>Monday: 8:00pm - 9:00pm</option>
+                                    <option>Wednesday: 7:00pm - 8:00pm</option>
+                                    <option>Saturday: 9:00am - 11:00am</option>
+    </select>
+							</div>
+
+							<div class="form-group-space">
+								<label for="form-dropdown">Other Information e.g. medical conditions</label>
+								<textarea class="form-control" id="form-dropdown" rows="3"></textarea>
+							</div>
+							<!--********** END OF FORM **********-->
+
+							<!--********** BUTTON **********-->
+							<div class="text-center">
+								<button type="submit" class="btn btn-primary">Join Class!</button>
+							</div>
+
+	</form>
+
+	<!--********** DIVIDING FOOTER FROM BODY *********-->
+	<hr class="hr1">
+	<hr class="hr2">
+
+	<!--********** FOOTER **********-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm" id="location">
+					<u>Location</u>
+					<br>Donaghenry Hall,
+					<br>North Street,
+					<br>Stewartstown,
+					<br>Co. Tyrone,
+					<br>BT71 5JF
+				</div>
+					<div class="text-center" id="class-times">
+						<p>
+							<u>Class Times</u>
+							<br>Monday: 8:00pm - 9:00pm
+							<br>Wednesday: 7:00pm - 8:00pm
+							<br>Saturday: 9:00am - 11:00am
+					</p>
+
+							<p>
+								<u>Price</u>
+								<br>£5 per class
+                    </p>
+					</div>
+					<div class="col-sm" id="links">
+						<a href="https://www.facebook.com/barney.heron.7" target="_blank" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/hashtag/boxercise?lang=en" target="_blank"
+							class="fa fa-twitter"></a>
+						<a href="https://www.instagram.com/heronbarney/" target="_blank" class="fa fa-instagram"></a>
+					</div>
+				</div>
+			</div>
+	</footer>
+
+    <!--********** SCRIPTS **********-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+
+</body>
+
+</html>

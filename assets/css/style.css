@@ -1,0 +1,241 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/********** FONT **********/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#info{
+    font-size: 21px;
+    padding-top: 20px;
+}
+
+#info2 {
+    padding-top: 20px;
+}
+
+/********** POSITIONING **********/
+.navbar-nav > li {
+  padding-left:30px;
+  padding-right:30px;
+  font-size: 30px;
+}
+
+.img-fluid {
+    padding-top: 30px;
+}
+
+#logo {
+    width: 400px;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    border : 2px solid white;
+    padding : 30px;
+}
+
+.form-group-space {
+    padding-top: 20px;
+}
+
+h5, #other-info {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+#links, a {
+ font-size: 35px;
+ padding-top: 30px;
+ margin: 0 20px;
+ float: right;
+}
+
+#form-dropdown {
+    margin-bottom: 20px;
+}
+
+header {
+    margin: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  top: 0;
+  width: 100%; 
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+button {
+    color: white;
+}
+
+/********** ZOOM EFFECT **********/
+.img-hover-zoom {
+  height: 300px; 
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  -o-transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2); 
+}
+
+/********** COLOUR **********/
+body {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.hr1 {
+  border: 1px solid red;
+}
+
+.hr2 {
+  border: 1px solid #569CFF;
+}
+
+#links, a {
+ color: white;
+}
+
+.navbar a:hover {
+  background: #569CFF;;
+  color: black;
+}
+
+.navbar a {
+color: #f2f2f2;
+}
+
+.navbar {
+  background-color: black;
+}
+
+/********* MEDIA QUERIES *********/
+@media screen and (max-width: 1393px) {
+
+#logo {
+    max-width:350px;
+    max-height:175px;
+}
+
+footer {
+     text-align: center;
+}
+    
+#address2 {
+    margin-left: 0px;
+    margin-top: 7px;
+}
+
+#address3 {
+    margin-left: 0px;
+}
+    
+form {
+    width: 35%;
+}
+
+.navbar a {
+    font-size: 30px;
+}
+
+#links, a {
+    margin-right: 10px;
+}
+
+#info2 {
+    font-size: 18px;
+}
+}
+
+  @media screen and (max-width: 800px) {
+
+#logo {
+    max-width:200px;
+    max-height:100px;
+}
+
+#location {
+    text-align: center;
+    padding-bottom: 10px;
+}
+  
+
+#class-times {
+    padding-left: 130px;
+    padding-top: 10px;
+}
+
+#address2 {
+    margin-left: 0px;
+    margin-top: 7px;
+}
+
+#address3 {
+    margin-left: 0px;
+}
+
+form {
+    width: 50%;
+}
+
+#links, a {
+    margin-right: 55px;
+    margin-bottom: 20px;
+}
+
+#navbarResponsive {
+    margin-top: 0;
+    float: right;
+}
+
+.navbar a {
+    font-size: 25px;
+}
+
+#info2 {
+    font-size: 18px;
+}
+}
+/********* END MEDIA QUERIES *********/
