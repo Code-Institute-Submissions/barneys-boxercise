@@ -83,6 +83,7 @@ Committing files to GitHub
 •	Check status by typing in ‘git status’
 •	Type ‘git add’ to add the files for staging
 •	Type ‘git commit -m "Add all files" to commit the files
+•	Type ‘git push’ to push the files to GitHub
 
 Deployment
 This project was developed using the GitPod (https://gitpod.io/) and was committed to git and pushed to GitHub using the built in function within GitPod.
