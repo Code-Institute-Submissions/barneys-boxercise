@@ -12,16 +12,21 @@ footer {
     font-weight: 600;
 }
 
-#info{
+.info{
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.info2 {
     font-size: 21px;
     padding-top: 20px;
+
 }
 
-#info2 {
-    padding-top: 20px;
-}
 
 /********** POSITIONING **********/
+
+/***** NAV BAR & LOGO *****/
 .navbar-nav > li {
   padding-left:30px;
   padding-right:30px;
@@ -33,64 +38,77 @@ footer {
 }
 
 #logo {
-    width: 400px;
+    right:25%;
+    top:0px;
+    width:80%;
+    height:auto;
 }
 
-form {
-    width: 30%;
-    margin: 0 auto;
-    border : 2px solid white;
-    padding : 30px;
+.navbar {
+    overflow: hidden;
+    top: 0;
+    width: 100%; 
 }
 
-.form-group-space {
-    padding-top: 20px;
-}
-
-h5, #other-info {
-    margin-bottom: 20px;
-}
-
-footer {
-    padding-top: 20px;
-}
-
-#links, a {
-    font-size: 35px;
-    padding-top: 30px;
-    margin: 0 20px;
-    float: right;
-}
-
-#form-dropdown {
-    margin-bottom: 20px;
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
 }
 
 header {
     margin: 0px;
 }
 
-.navbar {
-  overflow: hidden;
-  top: 0;
-  width: 100%; 
+/***** HOME *****/
+.location {
+    padding-bottom: 20px;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
+
+/***** GALLERY *****/
+h4 {
+    margin-bottom: 20px;
 }
 
-button {
-    color: white;
+
+/***** SIGN UP *****/
+form {
+    width: 23em;
+    margin: 0 auto;
+    border : 3px solid white;
+    padding : 20px;
 }
+
+.form-group-space {
+    padding-top: 20px;
+}
+
+.other-info {
+    margin-bottom: 20px;
+}
+
+
+/***** FOOTER *****/
+footer {
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.links {
+    font-size: 35px;
+    padding-top: 35px;
+}
+
+.social-icon {
+    margin: 0 20px;
+}
+
 
 /********** ZOOM EFFECT **********/
 .img-hover-zoom {
-    height: 300px; 
     overflow: hidden;
 }
 
@@ -107,17 +125,24 @@ button {
     transform: scale(1.2); 
 }
 
+
 /********** COLOUR **********/
+
 body {
     background-color: black;
     color: white;
 }
 
-footer {
-    background-color: black;
-    color: white;
+.hr1 {
+    border: 1px solid red;
 }
 
+.hr2 {
+    border: 1px solid #569CFF;
+}
+
+
+/***** HEADER *****/
 header {
     background-color: black;
 }
@@ -126,115 +151,32 @@ header {
     color: white;
 }
 
-.hr1 {
-  border: 1px solid red;
-}
-
-.hr2 {
-  border: 1px solid #569CFF;
-}
-
-#links, a {
-    color: white;
-}
-
 .navbar a:hover {
-  background: #569CFF;;
-  color: black;
+    background: #569CFF;;
+    color: black;
 }
 
 .navbar a {
-color: #f2f2f2;
+    color: #f2f2f2;
 }
 
 .navbar {
-  background-color: black;
+    background-color: black;
 }
 
-/*
-@media screen and (max-width: 1393px) {
 
-#logo {
-    max-width:350px;
-    max-height:175px;
+/***** SIGN UP *****/
+button {
+    color: white;
 }
 
+
+/***** FOOTER *****/
 footer {
-     text-align: center;
-}
-    
-#address2 {
-    margin-left: 0px;
-    margin-top: 7px;
+    background-color: black;
+    color: white;
 }
 
-#address3 {
-    margin-left: 0px;
+.social-icon {
+    color: white;
 }
-    
-form {
-    width: 35%;
-}
-
-.navbar a {
-    font-size: 30px;
-}
-
-#links, a {
-    margin-right: 10px;
-}
-
-#info2 {
-    font-size: 18px;
-}
-}
-
-  @media screen and (max-width: 812px) {
-
-#logo {
-    max-width:200px;
-    max-height:100px;
-}
-
-#location {
-    text-align: center;
-    padding-bottom: 10px;
-}
-  
-
-#class-times {
-    padding-left: 80px;
-    padding-top: 10px;
-}
-
-#address2 {
-    margin-left: 0px;
-    margin-top: 7px;
-}
-
-#address3 {
-    margin-left: 0px;
-}
-
-form {
-    width: 50%;
-}
-
-#links, a {
-    margin-right: 55px;
-    margin-bottom: 20px;
-}
-
-#navbarResponsive {
-    margin-top: 0;
-    float: right;
-}
-
-.navbar a {
-    font-size: 25px;
-}
-
-#info2 {
-    font-size: 18px;
-}
-}*/
