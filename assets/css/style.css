@@ -56,10 +56,10 @@ footer {
 }
 
 #links, a {
- font-size: 35px;
- padding-top: 30px;
- margin: 0 20px;
- float: right;
+    font-size: 35px;
+    padding-top: 30px;
+    margin: 0 20px;
+    float: right;
 }
 
 #form-dropdown {
@@ -90,21 +90,21 @@ button {
 
 /********** ZOOM EFFECT **********/
 .img-hover-zoom {
-  height: 300px; 
-  overflow: hidden;
+    height: 300px; 
+    overflow: hidden;
 }
 
 .img-hover-zoom img {
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: -webkit-transform .5s ease;
-  -o-transition: transform .5s ease;
-  transition: transform .5s ease, -webkit-transform .5s ease;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    -o-transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
 }
 
 .img-hover-zoom:hover img {
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); 
 }
 
 /********** COLOUR **********/
@@ -135,7 +135,7 @@ header {
 }
 
 #links, a {
- color: white;
+    color: white;
 }
 
 .navbar a:hover {
@@ -151,7 +151,7 @@ color: #f2f2f2;
   background-color: black;
 }
 
-/********* MEDIA QUERIES *********/
+/*
 @media screen and (max-width: 1393px) {
 
 #logo {
@@ -189,7 +189,7 @@ form {
 }
 }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 812px) {
 
 #logo {
     max-width:200px;
@@ -203,7 +203,7 @@ form {
   
 
 #class-times {
-    padding-left: 130px;
+    padding-left: 80px;
     padding-top: 10px;
 }
 
@@ -237,5 +237,4 @@ form {
 #info2 {
     font-size: 18px;
 }
-}
-/********* END MEDIA QUERIES *********/
+}*/
