@@ -5,7 +5,7 @@ Header
 On the header I will have a navigation link so the user can switch between each page with the click of the link. I will also have a logo of the class to make the site and class look more professional.
 This header will appear on all 3 pages of the website and is where the user will see logo and navigate to the other pages. The user’s goal is to be able to switch between pages whenever they want and this is where they can do it by left clicking the page title. The user will find the information they want to see by entering the different pages.
 
-#H1Footer
+#H1Footer#H1
 On the footer I will have the location, timetable of the classes, price and links to any social media accounts associated with the class.
 This footer will appear on all 3 pages of the website and is where see important information of the class and social media links. The user’s goal is to be able to see the most common information that the user will want to find out about. I will have it appearing on every page of the website so the user can see it in every page they visit so it stops them from having to go back and forward between pages to access this information. The user will find the information they want to see by entering the different pages.
 
