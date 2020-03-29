@@ -19,13 +19,13 @@ This footer will appear on all 3 pages of the website and is where see important
 The Home page will give a bit of background on what the boxercise class is all about.  I will have a picture at the top of the page spread across the entire width of the page so it stands out. I will have the picture change when user hovers over it. Below that I will have a paragraph with a bit of background of the class. I will also have a list on what all activities will be featured in the class with an icon beside each one. 
 This page is where the user will find out the information on the class. The user’s goal when they first enter the website is to find out what the class is about, location, times and price. The user will find all the information they need as soon as they enter the website.
 
-I have attached a PDF of the Home Page mockup to the project’s GitHub. The file is called ‘Storyboards (Barney's Boxercise) - Home Page’.
+Wireframe mockuop for [Home Page](https://github.com/cfaulkner985/barneys-boxercise/blob/master/wireframes/Wireframe%20-%20Home%20Page.pdf)
 
 ## Gallery
 The Gallery page is where the user can see images of previous classes so they can see what an actual class looks likes. I will have a gallery where the user will click on the image and it will make it bigger so they can have a better view. Then they can exit the image to bring them back to the main page. I will have a between 15 to 50 images on this page.
 This page is where the user will want to find out what the class and people look like who is taking part in the class. The user’s goal when they click on the link to this page is to see pictures and make it easy to navigate between each one. The user will find all the images for the class on this page and will be updated regularly as the class progresses.
 
-I have attached a PDF of the Gallery page mockup to the project’s GitHub. The file is called ‘Storyboards (Barney's Boxercise) - Gallery’.
+Wireframe mockuop for [Gallery](https://github.com/cfaulkner985/barneys-boxercise/blob/master/wireframes/Wireframe%20-%20Gallery.pdf)
 
 ## Sign Up
 The Sign Up page is where new members will be able to send their information to let us know that they are interested in joining the class. The page will consist of a form with heading and text boxes which will be:
@@ -40,7 +40,7 @@ The Sign Up page is where new members will be able to send their information to 
 I will also have a Submit button so they can submit there information and will display a message letting them know that it has been sent successfully.
 This page is where the user will sign up to the class if they are interested in taking part in the class. The user’s goal is to type in there details and make sure they are signed up to be able to attend the classes in which they want. The user will have basic information to fill out and if they fill out something wrong or leave blank they will be notified of this. Once the user fills out all fields and clicks the ‘Submit’ button then they will be notified that it has been entered successfully and will be able to attend the next class.
 
-I have attached a PDF of the Sign Up page mockup to the project’s GitHub. The file is called ‘Storyboards (Barney's Boxercise) – Sign Up’.
+Wireframe mockuop for [Sign Up](https://github.com/cfaulkner985/barneys-boxercise/blob/master/wireframes/Wireframe%20-%20Sign%20Up.pdf)
 
 This website will be aimed at both men and women from the ages of around 15-50. It will suit people around the area as I know most towns how some sort of gym or fitness class. I will keep the website simple and colourful as I am trying to attract a younger audience. I know that not everyone is good on computers that may want to attend the class so I will make it as user friendly and easy to use as possible.
 
@@ -90,6 +90,9 @@ This website will be aimed at both men and women from the ages of around 15-50. 
 3.	Type ‘git add’ to add the files for staging
 4.	Type ‘git commit -m "Add all files" to commit the files
 5.	Type ‘git push’ to push the files to GitHub
+
+## Testing
+Testing was done on a seperate document which is: [Testing.md](https://github.com/cfaulkner985/barneys-boxercise/blob/master/Testing.md)
 
 ## Deployment
 This project was developed using the GitPod (https://gitpod.io/) and was committed to git and pushed to GitHub using the built in function within GitPod.
