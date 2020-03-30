@@ -113,6 +113,15 @@ I have used the W3C validators to make sure my HTML and CSS codes have no errors
 ## Further Testing
 *	I checked the website on different devices and from different locations and looks good.
 *	I asked friend and family to check the website and let me know if there was anything they would to improve. They suggested that I make the header a bit small as it was rather big so I updated this.
+* I have tested all pages on the following devices:
+     * Desktop (Chrome, Firefox & Internet Explorer)
+     * Galaxy S5
+     * Pixel 2
+     * IPhone X
+     * IPad
+     * IPad Pro
+
+All pages are alligned and look good on all these devices.
 
 
 
