@@ -25,13 +25,13 @@ This website will most likely be visited by people who have heard of the class t
 On the header I will have a navigation link so the user can switch between each page with the click of the link. I will also have a logo of the class to make the site and class look more professional.
 This header will appear on all 3 pages of the website and is where the user will see logo and navigate to the other pages. The user’s goal is to be able to switch between pages whenever they want and this is where they can do it by left clicking the page title. The user will find the information they want to see by entering the different pages.
 
-Wireframe mockuop for [Header](https://github.com/cfaulkner985/barneys-boxercise/blob/master/wireframes/Storyboards%20(Barney's%20Boxercise)%20-%20Header.pdf)
+Wireframe mockuop for [Header](https://github.com/cfaulkner985/barneys-boxercise/blob/master/wireframes/Wireframe%20-%20Header.pdf)
 
 ### Footer
 On the footer I will have the location, timetable of the classes, price and links to any social media accounts associated with the class.
 This footer will appear on all 3 pages of the website and is where see important information of the class and social media links. The user’s goal is to be able to see the most common information that the user will want to find out about. I will have it appearing on every page of the website so the user can see it in every page they visit so it stops them from having to go back and forward between pages to access this information. The user will find the information they want to see by entering the different pages.
 
-Wireframe mockuop for [Footer](https://github.com/cfaulkner985/barneys-boxercise/blob/master/wireframes/Storyboards%20(Barney's%20Boxercise)%20-%20Footer.pdf)
+Wireframe mockuop for [Footer](https://github.com/cfaulkner985/barneys-boxercise/blob/master/wireframes/Wireframe%20-%20Footer.pdf)
 
 ### Home Page
 The Home page will give a bit of background on what the boxercise class is all about.  I will have a picture at the top of the page spread across the entire width of the page so it stands out. I will have the picture change when user hovers over it. Below that I will have a paragraph with a bit of background of the class. I will also have a list on what all activities will be featured in the class with an icon beside each one. 
